@@ -1,0 +1,5 @@
+function total(arr) {
+  return arr.reduce((sum,current) => sum+current,0)
+}
+
+console.log(total([1,2,3])); // 6
